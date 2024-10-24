@@ -11,3 +11,8 @@ body {
     font-family: sans-serif;
     font-size: 16px;
   }
+
+  #para1 {
+    text-align: center;
+    color: red;
+  }
