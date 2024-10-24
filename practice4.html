@@ -1,15 +1,9 @@
 <html>
     <head></head>
     <body>
-        <form method="post">
-            Enter a number (positive): <input type="number" name="number">
+        <form action="table.php" method="post">
+            Table Size: <input type="number" name="size"><br>
             <input type="submit">
         </form>
-        <php>
-            if ($SERVER["REQUEST_METHOD"] == "POST") {
-                $number = $_POST["number"];
-            }
-            echo $number;
-        </php>
     </body>
 </html>
