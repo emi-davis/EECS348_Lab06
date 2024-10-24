@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <form method="post">
+            Enter a number (positive): <input type="number" name="number">
+            <input type="submit">
+        </form>
+        <php>
+            if ($SERVER["REQUEST_METHOD"] == "POST") {
+                $number = $_POST["number"];
+            }
+            echo $number;
+        </php>
+    </body>
+</html>
